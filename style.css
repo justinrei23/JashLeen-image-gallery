@@ -1,220 +1,220 @@
 /* Main Style */
 
 body {
-    text-align: center;
-    background-image: url('./images/blogpostimg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    overflow-x: hidden;
-    margin: auto;
-    padding: auto;
+  text-align: center;
+  background-image: url("/images/blogpostimg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
 }
 
 .title {
-    width: 1500px;
-    margin: 15px;
-    padding: 15px;
-    color: white;
+  width: 1500px;
+  margin: 15px;
+  padding: 15px;
+  color: white;
 }
 
 h1 {
-    font-size: 60px;
-    letter-spacing: 8px;
-    text-shadow: 2px 2px 4px #000000;
-    font-weight: none;
-    text-align: center;
-    margin: 10px;
-    padding: 0;
+  font-size: 60px;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: none;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
 }
 
 .profile {
-    border-radius: 50%;
-    height: 350px;
-    border: solid 3px white;
-    margin: 8px;
-    padding: 2px;
-    transition: 0.2s;
+  border-radius: 50%;
+  height: 350px;
+  border: solid 3px white;
+  margin: 8px;
+  padding: 2px;
+  transition: 0.2s;
 }
 
 .profile:hover {
-    transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 
 p {
-    font-size: 20px;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: italic;
 }
 
 h4 {
-    font-family: monospace;
-    font-size: 25px;
-    letter-spacing: 10px;
-    background-color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    position: relative;
-    left: 42%;
+  font-family: monospace;
+  font-size: 25px;
+  letter-spacing: 10px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  position: relative;
+  left: 42%;
 }
 
 .gallery img {
-    border: solid 2px white;
-    border-radius: 10px;
-    margin: 0;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin: 0;
 }
 
 .gallery p {
-    font-size: 17px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: rgb(34, 34, 34);
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(34, 34, 34);
 }
 
 .gallery img {
-    border: solid 2px white;
-    border-radius: 10px;
-    margin: 0;
-    height: 300px;
-    width: 300px;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin: 0;
+  height: 300px;
+  width: 300px;
 }
 
 .gallery img:hover {
-    border: solid 2px rgb(137, 94, 33);
+  border: solid 2px rgb(137, 94, 33);
 }
 
 .gallery p {
-    font-size: 17px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 255, 255);
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
 }
 
 .gallery {
-    display: inline-block;
-    margin: 3px 7px 3px 7px;
-    padding: 10px;
-    padding: auto;
-    background-color: antiquewhite;
-    transition: 0.3s;
+  display: inline-block;
+  margin: 3px 7px 3px 7px;
+  padding: 10px;
+  padding: auto;
+  background-color: antiquewhite;
+  transition: 0.3s;
 }
 
 .gallery:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 h2 {
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: none;
-    text-align: center;
-    padding: 25px 0 25px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: none;
+  text-align: center;
+  padding: 25px 0 25px 0;
 }
 
 a {
-    text-decoration: underline;
-    color: rgb(255, 0, 0);
-    transition: 0.2s;
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+  transition: 0.2s;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 /* Mobile Phone that are 320 pixels */
 @media screen and (min-width: 320px) {
-    body {
-        text-align: center;
-        margin: 15px;
-        padding: 15px;
-    }
+  body {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+  }
 
-    div {
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
+  div {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
 
-    h1 {
-        width: 500px;
-        text-align: center;
-        position: relative;
-        right: 165px;
-        scale: 0.6.6;
-        margin: 10px;
-        padding: 10px;
-    }
+  h1 {
+    width: 500px;
+    text-align: center;
+    position: relative;
+    right: 165px;
+    scale: 0.6.6;
+    margin: 10px;
+    padding: 10px;
+  }
 
-    .profile {
-        width: 350px;
-        scale: 0.6;
-        position: relative;
-        right: 640px;
-        bottom: 100px;
-        transition: 0.2s;
-    }
+  .profile {
+    width: 350px;
+    scale: 0.6;
+    position: relative;
+    right: 640px;
+    bottom: 100px;
+    transition: 0.2s;
+  }
 
-    .profile:hover {
-        transform: scale(1.1,1.1);
-    }
+  .profile:hover {
+    transform: scale(1.1, 1.1);
+  }
 
-    p {
-        font-size: 15px;
-        width: 230px;
-        position: relative;
-        right: 10px;
-        bottom: 180px;
-        text-align: center;
-    }
+  p {
+    font-size: 15px;
+    width: 230px;
+    position: relative;
+    right: 10px;
+    bottom: 180px;
+    text-align: center;
+  }
 
-    h4 {
-        font-size: 15px;
-        width: 190px;
-        position: relative;
-        left: 40px;
-        bottom: 185px;
-        text-align: center;
-    }
+  h4 {
+    font-size: 15px;
+    width: 190px;
+    position: relative;
+    left: 40px;
+    bottom: 185px;
+    text-align: center;
+  }
 
-    .gallery img {
-        display: block;
-        margin: 12px;
-        padding: 0;
-        width: 200px;
-        height: 250px;
-    }
+  .gallery img {
+    display: block;
+    margin: 12px;
+    padding: 0;
+    width: 200px;
+    height: 250px;
+  }
 
-    .gallery p {
-        font-size: 14px;
-        text-align: center;
-        margin: 0;
-        color: rgb(0, 0, 0);
-    }
+  .gallery p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
 
-    .gallery img {
-        border: solid 2px white;
-        display: block;
-    }
+  .gallery img {
+    border: solid 2px white;
+    display: block;
+  }
 
-    .gallery:hover {
-        border: solid 2px rgb(141, 118, 61);
-    }
+  .gallery:hover {
+    border: solid 2px rgb(141, 118, 61);
+  }
 
-    .gallery p {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        position: relative;
-        top: 0;
-        left: 0;
-    }
+  .gallery p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 
-    .gallery {
+  .gallery {
     display: inline-block;
     margin: 3px 7px 3px 7px;
     padding: 3px;
@@ -222,91 +222,91 @@ a:hover {
     transition: 0.3s;
     position: relative;
     bottom: 180px;
-    }
+  }
 
-    h2 {
-        text-align: center;
-        font-size: 15px;
-        position: relative;
-        bottom: 145px;
-        padding: 15px;
-    }
+  h2 {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 145px;
+    padding: 15px;
+  }
 }
 
 /* Mobile Phone that are 375 pixels */
 @media screen and (min-width: 375px) {
-    body {
-        padding: auto;
-        margin: auto;
-        text-align: center;
-    }
+  body {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+  }
 
-    .title {
-        margin: 10px;
-        padding: 10px;
-        display: block;
-    }
+  .title {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+  }
 
-    h1 {
-        width: 560px;
-        text-align: center;
-        position: relative;
-        right: 135px;
-        scale: 0.6.6;
-        margin: 10px;
-        padding: 10px;
-    }
+  h1 {
+    width: 560px;
+    text-align: center;
+    position: relative;
+    right: 135px;
+    scale: 0.6.6;
+    margin: 10px;
+    padding: 10px;
+  }
 
-    .profile {
-        width: 340px;
-        scale: 0.6;
-        position: relative;
-        right: 590px;
-        transition: 0.2s;
-    }
+  .profile {
+    width: 340px;
+    scale: 0.6;
+    position: relative;
+    right: 590px;
+    transition: 0.2s;
+  }
 
-    .profile:hover {
-        transform: scale(1.1,1.1);
-    }
+  .profile:hover {
+    transform: scale(1.1, 1.1);
+  }
 
-    p {
-        text-align: center;
-        position: relative;
-        left: 45px;
-        margin: 0;
-        padding: 10px 0 10px 0;
-    }
+  p {
+    text-align: center;
+    position: relative;
+    left: 45px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
 
-    h4 {
-        text-align: center;
-        position: relative;
-        left: 80px;
-        margin: 25px 0 25px 0;
-    }
+  h4 {
+    text-align: center;
+    position: relative;
+    left: 80px;
+    margin: 25px 0 25px 0;
+  }
 
-    h2 {
-        color: white;
-        text-align: center;
-        letter-spacing: 3px;
-    }
+  h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+  }
 }
 
 /* Mobile Phone that are 425 pixels */
 @media screen and (min-width: 425px) {
-    body {
-        margin: auto;
-        padding: auto;
-        text-align: center;
-    }
+  body {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
 
-    .gallery {
-        position: relative;
-        right: 20px;
-    }
+  .gallery {
+    position: relative;
+    right: 20px;
+  }
 
-    h2 {
-        text-align: center;
-        position: relative;
-        right: 15px;
-    }
+  h2 {
+    text-align: center;
+    position: relative;
+    right: 15px;
+  }
 }
